@@ -34,18 +34,18 @@
                 margin-bottom: 200px;
                 padding: 16px;
                 background: #00bbc9;
-                background: linear-gradient(180deg, rgba(0, 187, 201, 1) 0%, rgba(202, 202, 202, 1) 75%);
+                background: linear-gradient(180deg, #a6a6a6 0%, #ffff 75%);
             }
 
             .addColor {
-                background: #025464;
+                background: #01252c;
             }
             .addTextColor {
-                color: #025464;
+                color: #00161b;
             }
 
             .addColor:hover {
-                background: #037288;
+                background: #01252cdc;
             }
 
             .tx-color {
@@ -65,19 +65,22 @@
 
             /* Estilo do botão de arrastar */
             ::-webkit-scrollbar-thumb {
-                background-color: #025464; /* Cor do botão de arrastar */
+                background-color: #002128; /* Cor do botão de arrastar */
             }
 
             /* Estilo da trilha da barra de rolagem */
             ::-webkit-scrollbar-track {
-                background-color: #e57c23; /* Cor da trilha da barra de rolagem */
+                background-color: #a6a6a6; /* Cor da trilha da barra de rolagem */
+            }
+            h1 {
+                color: #01252c;
             }
         </style>
     </head>
     <body>
         <div class="conatiner">
             <div class="container d-flex flex-column justify-content-center">
-                <h1 class="display-2 text-center mb-5 tx-color">Meus Links</h1>
+                <h1 class="display-2 text-center mb-5">Meus Links</h1>
                 <ul class="list-group">
                     <small class="tx-color-2 form-text">Portifólio</small>
                     <a class="addColor rounded list-group-item mb-3" href="https://github.com/CamposCodes" style="font-size: 2rem">
@@ -111,7 +114,7 @@
             </div>
 
             <div class="container d-flex flex-column justify-content-center">
-                <div class="card text-white mb-2 mt-5" style="background: #025464">
+                <div class="card text-white mb-2 mt-5" style="background: #01252c">
                     <div class="card-header d-flex justify-content-between">
                         <span class="tx-color align-self-center">Sobre mim</span>
                         <button id="buttonSobre" class="tx-color btn btn-outline-info align-self-center mr-3">Clique aqui</button>
@@ -128,7 +131,6 @@
                                 Se você estiver interessado em projetos, colaborações ou oportunidades de trabalho, sinta-se à vontade para entrar em contato comigo. Estou aberto a novas experiências
                                 e comprometido em oferecer soluções de qualidade como desenvolvedor Front-end web e mobile.
                             </p>
-                            <a href="" class="btn btn-outline-info btn-large tx-color">Saiba mais</a>
                         </div>
                     </div>
                 </div>
